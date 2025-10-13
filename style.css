@@ -1,0 +1,42 @@
+body{
+    text-align: center;
+    align-items: center;
+}
+button{
+    border-radius: 15%;
+}
+.div0{
+    border: 5px;
+    border-radius: 20%;
+    height: 250px;
+    width: 300px;
+}
+.div1{
+    background-color: yellow;
+    border-radius: 20%;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    
+}
+.div2{
+    background-color: red;
+    border-radius: 20%;
+    height: 100px;
+    width: 100px;
+    display: flex;
+}
+.div3{
+    background-color: green;
+    border-radius: 20%;
+    height: 100px;
+    width: 100px;
+    display: flex;
+}
+.div4{
+    background-color: blue;
+    border-radius: 20%;
+    height: 100px;
+    width: 100px;
+    display: flex;
+}
