@@ -1,6 +1,7 @@
 body{
     text-align: center;
     align-items: center;
+    background-color: pink;
 }
 button{
     border-radius: 15%;
