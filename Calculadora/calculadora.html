@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="calculadora.js" defer></script>
+    </head>
+    <body>
+        <h1>Calculadora</h1>
+        <form>
+            <label>Numero 1: </label>
+            <input type="number" id="numero1" value="5">
+            <label>Numero 2: </label>
+            <input type="number" id="numero2" value="5">
+            <select name="operaciones" id="operaciones">
+                <option value="suma">Sumar</option>
+                <option value="resta">Restar</option>
+                <option value="multiplicacion">Multiplicar</option>
+                <option value="division">Dividir</option>
+            </select>
+            <br>
+            <br>
+            <input type="button" onclick="operar()" value="Enviar">
+        </form>
+        <br>
+        <label class="resultado">Resultado: </label>
+        <input type="number" id="resultado" readonly class="resultado">
+        <br>
+        <h3>Historial de operaciones</h3>
+        <div id="log" class="miDiv"></div>
+        <button onclick="limpiar()">Limpiar Historial</button>
+    </body>
+</html>
