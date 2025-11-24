@@ -5,11 +5,10 @@ const operacion = document.getElementById("operaciones")
 const resultado = document.getElementById("resultado")
 let frase
 let color
-const rojo=Math.floor(Math.random()*256)
-const verde=Math.floor(Math.random()*256)
-const azul=Math.floor(Math.random()*256)
-
 function operar(){
+    let rojo=Math.floor(Math.random()*256)
+    let verde=Math.floor(Math.random()*256)
+    let azul=Math.floor(Math.random()*256)
     if(operacion.value=="suma"){
         resultado.value=parseInt(uno.value)+parseInt(dos.value)
         frase="El usuario hizo una "+operacion.value+" de "+uno.value+"+"+dos.value+"="+resultado.value
