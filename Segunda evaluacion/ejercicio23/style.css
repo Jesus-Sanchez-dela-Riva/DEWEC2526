@@ -1,0 +1,28 @@
+.miDiv{
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 275px;
+    margin-top: 200px;
+}
+.div1{
+    width: 700px;
+    height: 700px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 30px;
+    align-items: center;
+    text-align: center;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+p{
+    font-size: 25px;
+    font-weight: bold;
+}

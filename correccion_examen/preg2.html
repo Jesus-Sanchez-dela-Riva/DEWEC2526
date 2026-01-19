@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Preg2 Examen DWEC UT2 2526</title>
+        <link rel="stylesheet" href="preg2.css">
+        <script src="preg2.js" defer></script>
+    </head>
+    <body>
+        <div class="formulario">
+            <input type="button" id="boton1" onclick="piensaEnVerde()" value="Piensa En Verde">
+            <br>
+            <br>
+            <br>
+            <label>Seleciona tipo de vehiculo</label>
+            <select id="vehiculo_select">
+                <option value="coche">coche</option>
+                <option value="moto">moto</option>
+                <option value="camion">camion</option>
+            </select>
+            <br>
+            <input type="button" id="boton2" onclick="muestraVehiculo()" value="Muestra vehiculo">
+        </div>
+        <div class="vehiculo" id="resultado"></div>
+    </body>
+</html>

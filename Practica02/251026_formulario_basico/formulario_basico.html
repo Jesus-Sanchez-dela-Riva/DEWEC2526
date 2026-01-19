@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="formulario_basico.js" defer></script>
+    <link href="formulario_basico.css" rel="stylesheet">
+    <title>formularioBasico</title>
+</head>
+<body>
+    <form>
+        <label for="nombre">Nombre: </label>
+        <input id='nombre' type="text" value="Jesus">
+        <br>
+        <label for="apellido">Apellidos: </label>
+        <input id='apellido' type="text" value="Sanchez">
+        <br>
+        <label for="edad">Edad: </label>
+        <input type="text" id="edad" value="19">
+        <br>
+        <label for="aficiones">Aficiones: </label>
+        <input type="text" id="aficiones" value="motos">
+        <br>
+        <label for="miColor">Elige el color de fondo: </label>
+        <input type="color" id="miColor">
+        <br>
+        <label for="tematica">Elige temática: </label>
+        <select name="tematica" id="tematica">
+            <option value="Tecnologia">Tecnologia</option>
+            <option value="Motos">Motos</option>
+            <option value="Deportes">Deportes</option>
+            <option value="Coches">Coches</option>
+        </select>
+        <br>
+        <br>
+        <input type="button" value="Enviar" onclick="muestraDatos()">
+    </form>
+    <br>
+    <div id="uno" class="contenedor_ppal"></div>
+</body>
+</html>

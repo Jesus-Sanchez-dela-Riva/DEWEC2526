@@ -1,0 +1,15 @@
+.miDiv{
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    background-color: lightskyblue;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+p{
+    font-size: 25px;
+    font-weight: bold;
+}

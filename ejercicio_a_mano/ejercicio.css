@@ -1,0 +1,12 @@
+body{
+    background-image: url(fondo.png);
+    background-repeat: no-repeat;
+    height: 845px;
+    width: 1500px;
+}
+.div1{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    transition: all 3.5s ease-in-out;
+}
