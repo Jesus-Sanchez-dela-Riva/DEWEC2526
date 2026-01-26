@@ -8,3 +8,5 @@
 //history.forward();
 //history.go(-2);
 navigator.javaEnabled();
+console.log(screen.width);
+console.log(screen.height);
