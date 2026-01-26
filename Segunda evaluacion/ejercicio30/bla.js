@@ -1,0 +1,10 @@
+//  window.alert("Bienvenido");
+//window.confirm("¿Deseas continuar?");
+//window.prompt("Introduce tu nombre:");
+//location.assign("https://www.google.com");
+//location.reload();
+//location.replace("https://www.google.com");
+//history.back();
+//history.forward();
+//history.go(-2);
+navigator.javaEnabled();

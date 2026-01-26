@@ -17,11 +17,8 @@ cajas.forEach(caja => {
 
 const contenedor = document.getElementById("contenedor");
 
-// Hijos
 console.log(contenedor.children);
 
-// Primer hijo
 console.log(contenedor.firstElementChild);
 
-// Padre
 console.log(contenedor.parentElement);
