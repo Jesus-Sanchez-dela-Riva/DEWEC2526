@@ -1,0 +1,128 @@
+/* Reset básico */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background: linear-gradient(135deg, #0f0f0f, #1c1c1c);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Título */
+h1{
+    margin-bottom: 30px;
+    font-size: 40px;
+    letter-spacing: 2px;
+    color: #ff2e2e;
+    text-shadow: 0 0 15px rgba(255, 0, 0, 0.6);
+}
+
+/* Contenedor principal */
+#marvel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 30px;
+}
+
+/* VS */
+#marvel h2{
+    font-size: 50px;
+    color: #ffffff;
+    text-shadow: 0 0 15px #ffffff;
+}
+
+/* Cartas */
+#heroe, #villano{
+    width: 250px;
+    min-height: 300px;
+    background: #222;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(255,255,255,0.1);
+    transition: transform 0.3s ease;
+}
+
+#heroe:hover, #villano:hover{
+    transform: scale(1.05);
+}
+
+/* Diferenciar colores */
+#heroe{
+    border: 3px solid #2ecc71;
+}
+
+#villano{
+    border: 3px solid #e74c3c;
+}
+
+/* Nombre */
+#heroe h3, #villano h3{
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+
+/* Vida */
+#heroe p, #villano p{
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+/* Botones */
+input[type="button"]{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* Botón normal */
+#heroe input:nth-child(3){
+    background-color: #3498db;
+    color: white;
+}
+
+#heroe input:nth-child(3):hover{
+    background-color: #2980b9;
+}
+
+/* Botón especial */
+#heroe input:nth-child(4){
+    background-color: #f1c40f;
+    color: black;
+}
+
+#heroe input:nth-child(4):hover{
+    background-color: #d4ac0d;
+}
+
+/* Botones deshabilitados */
+input:disabled{
+    background-color: gray !important;
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+
+/* Zona de salida */
+#salida{
+    width: 80%;
+    margin: 0 auto;
+    background: #111;
+    padding: 20px;
+    border-radius: 10px;
+    min-height: 150px;
+    text-align: left;
+    overflow-y: auto;
+    box-shadow: 0 0 15px rgba(255,255,255,0.1);
+}

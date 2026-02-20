@@ -1,0 +1,60 @@
+#padre{
+    background-image: url('fondo.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 1280px;
+    height: 700px;
+    
+    justify-content: center;
+    align-items: center;
+}
+#insertar{
+    margin-top: 30px; 
+    margin-left: 100px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+#insertar button {
+    width: 180px;
+    padding: 8px 0;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    background: linear-gradient(to bottom, #ff3300d3, #ff3300d3);
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    box-shadow: 0 4px 0 #ff3300d3, 0 8px 15px rgba(0, 0, 0, 0.3);
+    transition: all 0.2s ease;
+}
+#insertar input {
+    width: 180px;
+    padding: 8px;
+    border-radius: 12px;
+    border: 2px solid #ff3300d3;
+    font-size: 14px;
+    outline: none;
+}
+.letras{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+#salida{
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 10px;
+    background-color: rgba(128, 128, 128, 0.3); 
+    padding: 10px;
+    border-radius: 8px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
